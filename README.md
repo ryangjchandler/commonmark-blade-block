@@ -46,6 +46,23 @@ Then start embedding Blade inside of your Markdown content with the `@blade` and
 @endblade
 ```
 
+### Using Laravel's `Str` or `str()` helpers
+
+If you're using `Str::markdown()` or `str()->markdown()`, then you can register the extension through the `extensions` argument.
+
+```php
+Str::markdown(
+    <<<'MD'
+    @blade
+        <x-button></x-button>
+    @endblade
+    MD,
+    extensions: [
+        new BladeExtension(),
+    ]
+)
+```
+
 ## Testing
 
 ```bash
