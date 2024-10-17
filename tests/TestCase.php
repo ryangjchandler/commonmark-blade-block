@@ -2,7 +2,6 @@
 
 namespace RyanChandler\CommonmarkBladeBlock\Tests;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 use RyanChandler\CommonmarkBladeBlock\CommonmarkBladeBlockServiceProvider;
 

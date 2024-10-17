@@ -15,7 +15,7 @@ it('renders a blade block', function () {
 
 function render(string $markdown): string
 {
-    $converter = new CommonMarkConverter();
+    $converter = new CommonMarkConverter;
 
     $converter->getEnvironment()->addExtension(new BladeExtension);
 

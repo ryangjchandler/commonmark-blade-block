@@ -11,7 +11,7 @@ use RyanChandler\CommonmarkBladeBlock\Block\Blade;
 class BladeRenderer implements NodeRendererInterface
 {
     /**
-     * @param Blade $node
+     * @param  Blade  $node
      */
     public function render(Node $node, ChildNodeRendererInterface $childRenderer)
     {

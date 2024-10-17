@@ -2,12 +2,12 @@
 
 namespace RyanChandler\CommonmarkBladeBlock\Block\Parser;
 
-use RyanChandler\CommonmarkBladeBlock\Block\Blade;
 use League\CommonMark\Parser\Block\AbstractBlockContinueParser;
-use League\CommonMark\Parser\Cursor;
-use League\CommonMark\Parser\Block\BlockContinueParserInterface;
 use League\CommonMark\Parser\Block\BlockContinue;
+use League\CommonMark\Parser\Block\BlockContinueParserInterface;
+use League\CommonMark\Parser\Cursor;
 use League\CommonMark\Util\ArrayCollection;
+use RyanChandler\CommonmarkBladeBlock\Block\Blade;
 
 class BladeParser extends AbstractBlockContinueParser
 {
@@ -17,8 +17,8 @@ class BladeParser extends AbstractBlockContinueParser
 
     public function __construct()
     {
-        $this->block = new Blade();
-        $this->strings = new ArrayCollection();
+        $this->block = new Blade;
+        $this->strings = new ArrayCollection;
     }
 
     public function getBlock(): Blade
