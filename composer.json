@@ -28,7 +28,7 @@
         "orchestra/testbench": "^10.0.0||^9.13.1||^8.22.0",
         "pestphp/pest": "^2.36",
         "pestphp/pest-plugin-arch": "^2.7",
-        "pestphp/pest-plugin-laravel": "^2.4",
+        "pestphp/pest-plugin-laravel": "^3.0||^2.4",
         "phpstan/extension-installer": "^1.4.3",
         "phpstan/phpstan-deprecation-rules": "^1.2.1",
         "phpstan/phpstan-phpunit": "^1.4.2",
