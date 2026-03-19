@@ -2,6 +2,18 @@
 
 All notable changes to `commonmark-blade-block` will be documented in this file.
 
+## v1.1.1 - 2026-03-19
+
+### What's Changed
+
+* Add support for Laravel 13 by @ryangjchandler in https://github.com/ryangjchandler/commonmark-blade-block/pull/12
+
+### New Contributors
+
+* @ryangjchandler made their first contribution in https://github.com/ryangjchandler/commonmark-blade-block/pull/12
+
+**Full Changelog**: https://github.com/ryangjchandler/commonmark-blade-block/compare/v1.1.0...v1.1.1
+
 ## v1.1.0 - 2025-05-09
 
 ### What's Changed
